@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require_relative "lib/cut"
+require_relative "lib/cli"
+
+attributes = CLI.new(ARGV).call
+Cut.call(**attributes)
+
+# Missing arguments X
+# incorrect arguments X
+# rescue when file does not exist X
+# Check fie format? X
+# Check delimeter matches file X
+# Check fields are correct X
+# Output
+# Tests X
+# Input validation X
+# CLI TEST
+# README
